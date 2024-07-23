@@ -1,0 +1,27 @@
+---
+layout: layout_basic
+permalink: /works/
+---
+<section class="work section" id="work">
+    <h2 class="section-title">Work</h2>
+
+    <div class="container">
+        {% for projet in site.data.img.projets %}
+            <div class="row">
+                <div class="col-sm-4  {% if projet.position %}order-last{% endif %}">
+                    <a href="" class="work__img">
+                        <img src="{{projet.url}}" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                    {% for descr in projet.description %}
+                        <p>{{descr}}</p><br/>
+                    {% endfor %}
+                </div>
+            </div>
+            <br>
+        {% endfor %}
+    </div>
+        
+
+</section>

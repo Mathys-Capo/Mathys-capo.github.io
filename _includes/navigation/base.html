@@ -1,0 +1,7 @@
+<div class="nav__menu" id="nav-menu">
+    <ul class="nav__list">
+        {% for page in site.data.navigation.pages %}
+            <li class="nav__item"><a href="{{ page.url }}" class="nav__link ">{{page.title}}</a></li><!-- active-link -->
+        {% endfor %}
+    </ul>
+</div>

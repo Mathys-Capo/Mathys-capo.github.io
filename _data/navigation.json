@@ -1,0 +1,29 @@
+{
+    "pages":[
+        {
+            "url":"/accueil/",
+            "title": "Accueil",
+            "name": "accueil"
+        },
+        {
+            "url":"/about/",
+            "title": "CV",
+            "name": "CV"
+        },
+        {
+            "url":"/skills/",
+            "title": "Compétence",
+            "name": "Compétence"
+        },
+        {
+            "url":"/works/",
+            "title": "Travaux",
+            "name": "Travaux"
+        },
+        {
+            "url":"/contact/",
+            "title": "Contact",
+            "name": "Contact"
+        }
+    ]
+}
